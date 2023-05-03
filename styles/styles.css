@@ -4,6 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Class Selectors*/
+.box {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #2d2d32;
+    background-color: rgb(5, 123, 123);
+    color: #fff;
+}
+.indent {
+    padding-left: 2rem;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,17 +31,7 @@ nav a {
     display: block;
     padding: 10px;
 }
-/*Class Selectors*/
-.box {
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid #2d2d32;
-    background-color: rgb(5, 123, 123);
-    color: #fff;
-}
-.indent {
-    padding-left: 2rem;
-}
+
 main {
     max-width: 640px;
 }
