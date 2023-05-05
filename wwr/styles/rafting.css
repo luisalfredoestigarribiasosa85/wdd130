@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Roboto+Serif&display=swap');
+* {
+    max-width: 800px;
+}
+:root {
+    --primary-color: #161515;
+    --secondary-color: #DCE9CE;
+    --accent1-color: #477998;
+    --accent2-color: #F4F4F9;
+
+    --heading-font: 'Roboto serif', serif;
+    --paragraph-font: 'Montserrat', sans-serif;
+
+    --nav-background-color: #058ca7;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #60696c;
+    --nav-hover-background-color: #100e0e;
+}
+body {
+    font-family: var(--heading-font);
+}
+h2 {
+    color: var(--accent1-color)
+}
+p {
+    font-family: var(--paragraph-font);
+}
+nav a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: 700;
+}
+/*Class Selectors*/
+.hero {
+    position: relative;
+}
+.hero h1 {
+    position: absolute;
+    background-color:rgba(8, 122, 167, 0.503);
+    color: var(--accent2-color);
+    width: 100%;
+    text-align: center;
+    top: 10px;
+}
+.hero article {
+    position: absolute;
+    background-color: rgba(8, 122, 167, 0.503); 
+    color: var(--accent2-color);
+    top: 200px;
+    left: 100px;
+    width: 75%;
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
