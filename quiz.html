@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+        </svg> Basic HTML and CSS Quiz.</h2>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="q1"><strong>1.</strong> What does the acronym CSS stand for?</label>
+                <input type="text" name="q1" id="q1">
+            </div>
+            <div>
+                <label for="q2"><strong>2.</strong> How are id and class attributes selected in CSS?</label>
+                <textarea name="q2" id="q2" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="q3"><strong>3.</strong> Which of the following is a valid CSS comment?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose one..</option>
+                    <option>#Comment</option>
+                    <option>//Comment</option>
+                    <option>/*Comment*/</option>
+                </select>
+            </div>
+            <div>
+                <label for="q4"><strong>4.</strong> What is the bottom margin given this declaration?</label>
+                <div class="code">
+                    <code>margin: 10px 5px 15px</code>
+                </div>
+                <input type="number" name="q4" id="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    
+    
+</body>
+</html>

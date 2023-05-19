@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    max-width: 500px;
+    background-color: #fff;
+}
+header {
+    max-width: 650px;
+    margin: -15px 0;
+}
+
+h2 {
+    padding-left: 1rem;
+    color: navy;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+h2 svg {
+    color: #333;
+}
+main {
+    background-color: #EEEEEE;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+form {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: 5px 0;
+}
+label[for="q1"] {
+    margin-top: 2rem;
+}
+input {
+    padding: 7px;
+    border: none;
+    border-left: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
+textarea {
+    border: none;
+    border-left: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
+select {
+    padding: 7px;
+    border: none;
+    border-left: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+}
+button {
+    background-color: #000080;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0000ff;
+}
+strong {
+    color: #050083;
+}
+.code {
+    background-color: #333;
+    color: #fff;
+    max-width: 300px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
