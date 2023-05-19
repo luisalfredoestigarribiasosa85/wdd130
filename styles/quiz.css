@@ -13,13 +13,14 @@ header {
     margin: -15px 0;
 }
 
-h2 {
+h1 {
     padding-left: 1rem;
     color: navy;
     font-weight: 700;
     margin: 2rem 0;
+    font-size: large;
 }
-h2 svg {
+h1 svg {
     color: #333;
 }
 main {
