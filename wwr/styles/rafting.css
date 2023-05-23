@@ -210,15 +210,9 @@ footer nav {
     font-size: var(--paragraph-font-size);
     color: var(--primary-color);
 }
-.contact-us-form select {
-    margin: 5px;
-    width: 90%;
-    height: 35px;
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-    font-family: var(--paragraph-font);
-    font-size: var(--paragraph-font-size);
-    color: var(--primary-color);
+.contact-us-form .radios {
+    display: flex;
+    flex-direction: row;
 }
 .contact-us-form textarea {
     margin: 5px;

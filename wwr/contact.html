@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the Contact us page, a page where people can contact the company.">
     <meta name="author" content="Luis Estigarribia">
-    <title>Contact us</title>
+    <title>Contact Whitewater Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
 </head>
@@ -65,12 +65,16 @@
             <input type="text" id="name" name="name" required>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <select>
-                <option selected disabled>Choose inquiry type</option>
-                <option>General Inquiry</option>
-                <option>Reservation Question</option>
-                <option>Website Suggestion</option>
-            </select>
+            <h3>Purpose of the Inquiry:</h3>
+            <div class="radios">
+                <label for="radio">General Inquiry</label>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Reservation Question</label>
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">Website Suggestion</label>
+                <input type="radio" name="radio" id="radio">
+            </div>
+                
             <label for="message">Message:</label>
             <textarea id="message" name="message"></textarea>
             <div class="checkbox2">
