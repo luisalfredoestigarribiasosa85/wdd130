@@ -265,3 +265,158 @@ footer nav {
     margin: 5px;
     background-color: #f2f2f2;
 }
+.grades {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+.trips-h1 {
+    text-align: center;
+    color: var(--accent1-color);
+}
+.grades a {
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--nav-background-color);
+    color: #fff;
+    text-align: center;
+}
+.grades a:hover {
+    background-color: #058ca7a2;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+.call-to-action a {
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 18pt;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--nav-background-color);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.call-to-action a:hover {
+    background-color: #058ca7a2;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+.table-container tr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.table-container td {
+    padding: 5px;
+}
+.table-container td:first-child {
+    width: 150px;
+}
+.table-container td:nth-child(2) {
+    width: 150px;
+}
+.table-container td:nth-child(3) {
+    width: 150px;
+}
+.background-image {
+    background-image: url(../images/rafting_home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+.background-image h1 {
+    color: #333;
+    font-size: 60px;
+    margin: 5px;
+    padding: 5px;
+}
+.background-image p {
+    color: #333;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
+}
+.background-image a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d6efd;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.background-image a:hover {
+    background-color: #0b5ed7;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px;
+    text-align: center;
+}
+.newsletter h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+}
+.newsletter input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    margin: 5px;
+    width: 300px;
+}
+.newsletter input[type=submit] {
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+.newsletter input[type=submit]:hover {
+    background-color: #0b5ed7;
+}
+.figures {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
